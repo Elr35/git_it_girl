@@ -1,3 +1,41 @@
-body{
-  background-color: #FCF7E1;
+#home{
+  height: 100%;
+  background-image: url("../images/background.jpg");
+  background-position: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
+}
+
+#restaurants{
+  height: 100%;
+  background-image: url("../images/float.jpg");
+  background-position: centre;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+h1{
+  text-align: center;
+ color: #a10a4b;
+ font-size:60px;
+ font-style: oblique; bold;
+ font-family: times;
+}
+
+h2{
+text-align: center;
+ font-size:25px;
+ font-style: italic; bold;
+ font-family: times;
+}
+
+img{
+  height: 200px;
+  width:200px;
+}
+
+div#main {
+  background-color: #e0d0f5;
+  width: 75%;
 }
