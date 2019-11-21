@@ -39,3 +39,28 @@ div#main {
   background-color: #e0d0f5;
   width: 75%;
 }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: pink;
+}
+
+li {
+  float: left;
+}
+
+a {
+  display: block;
+  padding: 8px;
+  background-color: #pink;
+}
+
+li a:hover {
+  background-color: white;
+}
+
+.active {
+  background-color: #4CAF50;
+}
