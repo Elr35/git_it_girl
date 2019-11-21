@@ -1,70 +1,79 @@
-#home{
-  height: 100%;
+.jumbotron {
   background-image: url("../images/background.jpg");
-  background-position: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-
+  min-height: 600px;
 }
 
-#restaurants{
-  height: 100%;
-  background-image: url("../images/ocean.jpg");
-  background-position: centre;
-  background-size: cover;
-  background-attachment: fixed;
+#part2{
+  background-color: pink;
 }
 
 h1{
-  text-align: center;
+text-align: left;
  color: #a10a4b;
- font-size:60px;
- font-style: oblique; bold;
- font-family: times;
+ font-size:30px;
+ font-family: sans-serif;
 }
+
 
 h2{
 text-align: center;
- font-size:25px;
+ font-size:30px;
  font-style: italic; bold;
  font-family: times;
 }
 
-img{
-  height: 200px;
-  width:200px;
+h3{
+text-align: center;
+ color: #a10a4b;
+ font-size:20px;
+ font-style: very bold;
+ font-family: arial;
 }
 
-div#main {
-  background-color: #e0d0f5;
-  width: 75%;
+.row:: after{
+  content: "";
+  clear: both;
+  display: table;
 }
 
-ul {
+
+ul{
   list-style-type: none;
   margin: 0;
   padding: 0;
   background-color: pink;
 }
 
-li {
+li{
   float: left;
 }
 
-a {
+a{
   display: block;
   padding: 8px;
   font-size:15px;
   font-style: bold;
   font-family: arial;
   font-color: black;
-  background-color: black;
 }
 
-li a:hover {
+li a:hover{
   background-color: pink;
 }
 
-.active {
+.active{
   background-color: #4CAF50;
+}
+
+div#container {
+  background-color: white;
+}
+
+div.section {
+  color: white;
+  font-size: 32px;
+  width: 33.333%;
+  float: left;
 }
