@@ -1,28 +1,28 @@
 .jumbotron {
-  background-image: url("../images/background.jpg");
+  background-image: url("../images/background3.jpeg");
   background-size: cover;
   background-attachment: fixed;
-  min-height: 600px;
+  min-height: 800px;
 }
 
 #part2{
-  background-color: pink;
+  background-color: white;
 }
 
 h1{
-text-align: left;
- color: #a10a4b;
- font-size:30px;
- font-family: sans-serif;
+text-align: center;
+ color: #ffffff ;
+ font-size:70px;
+ font-family: 'Indie Flower'
 }
-
 
 h2{
 text-align: center;
- font-size:30px;
- font-style: italic; bold;
- font-family: times;
+font-size: 30px;
+font-family: 'Indie Flower'
+color: #ffffff
 }
+
 
 h3{
 text-align: center;
@@ -43,7 +43,6 @@ ul{
   list-style-type: none;
   margin: 0;
   padding: 0;
-  background-color: pink;
 }
 
 li{
@@ -60,7 +59,7 @@ a{
 }
 
 li a:hover{
-  background-color: pink;
+  font-family: 'Caveat'
 }
 
 .active{
