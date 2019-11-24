@@ -3,9 +3,8 @@
   background-size: cover;
   background-attachment: fixed;
   min-height: 1000px;
+  background-color: blue;
 }
-
-
 
 h1{
 position: relative;
@@ -17,7 +16,7 @@ top: 180px;
 }
 
 h2{
-text-align: right;
+text-align: center;
  color: #ffffff ;
  font-size:30px;
  font-family: 'Nothing You Could Do', cursive;
@@ -38,6 +37,7 @@ li-2{
   color: #ffffff
   position: relative;
 }
+
 h3{
 text-align: center;
  color: #ffffff;
@@ -45,14 +45,30 @@ text-align: center;
  font-family: "Nothing You Could Do";
 }
 
-p{
-
-  text-align: right;
-  color: #ffffff
-
-
+h4{
+position: relative;
+left: 350px;
+top: 180px;
+ color: #ffffff ;
+ font-size:100px;
+ font-family: 'Caveat'
 }
 
+p{
+  font-size:25px;
+  font-family:'Caveat';
+  text-align: centre;
+  color: #ffffff
+}
+
+img{
+  max-width: 45%;
+  align-self: center;
+}
+
+iframe{
+  align-self: centre;
+}
 
 .row:: after{
   content: "";
