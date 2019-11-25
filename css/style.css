@@ -7,11 +7,10 @@
 }
 
 .jumbotron2 {
-  background-image: url("../images/backgroundrock.jpeg");
   background-size: cover;
   background-attachment: fixed;
   min-height: 1000px;
-  background-color: blue;
+  background-color: white;
 }
 
 .jumbotron3 {
@@ -84,7 +83,9 @@ p{
   font-size:25px;
   font-family:'Caveat';
   text-align: centre;
-  color: #ffffff
+  color: black;
+  position: relative;
+  left: 70px; 
 }
 
 img{
@@ -94,6 +95,8 @@ img{
 
 iframe{
   align-self: centre;
+  position: relative;
+  left: 500px;
 }
 
 .row:: after{
@@ -134,7 +137,7 @@ a:hover{
   display: block;
   padding: 8px;
   font-size:20px;
-  color: #ffffff
+  color: white;
 }
 
 
